@@ -68,8 +68,8 @@ contract_id = "SP1N4EXSR8DP5GRN2XCWZEW9PR32JHNRYW7MVPNTA.PomerenianBoo-Pomboo"
 contract_id = "SP3MRT36YWK7R0SKFCQ1TDJB3Y3XBAVRFXPYBQ33E.Something-v420"
 # [[project.requirements]]
 # contract_id = "SM26NBC8SFHNW4P1Y4DFH27974P56WN86C92HPEHH.token-lqstx"
-[[project.requirements]]
-contract_id = "SM26NBC8SFHNW4P1Y4DFH27974P56WN86C92HPEHH.token-vlqstx"
+# [[project.requirements]]
+# contract_id = "SM26NBC8SFHNW4P1Y4DFH27974P56WN86C92HPEHH.token-vlqstx"
 [[project.requirements]]
 contract_id = "SP2VGJQAB0T7R2Y9S2PJRNPDEW91CM2YCDYJGGPQS.mooneeb"
 [[project.requirements]]
@@ -1652,11 +1652,11 @@ epoch = 2.4
 # clarity_version = 2
 # epoch = 2.4
 
-[contracts.token-wvlqstx]
-path = "contracts/wrapped-token/token-wvlqstx.clar"
-depends_on = [ "trait-ownable", "trait-sip-010"]
-clarity_version = 2
-epoch = 2.4
+# [contracts.token-wvlqstx]
+# path = "contracts/wrapped-token/token-wvlqstx.clar"
+# depends_on = [ "trait-ownable", "trait-sip-010"]
+# clarity_version = 2
+# epoch = 2.4
 
 [contracts.token-ssl-mooneeb-JGGPQS]
 path = "contracts/wrapped-token/token-ssl-mooneeb-JGGPQS.clar"
@@ -1687,3 +1687,7 @@ path = "contracts/wrapped-token/token-ssl-memegoatstx-E0G14.clar"
 depends_on = [ "trait-ownable", "trait-sip-010" ]
 clarity_version = 2
 epoch = 2.4
+
+[contracts.runes-dog]
+path = "contracts/token/runes-dog.clar"
+depends_on = []
