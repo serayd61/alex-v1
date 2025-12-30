@@ -11,3 +11,18 @@ Before you run, we use a custom dependency management tool, so please run the fo
 ```
 
 The list of dependencies (not all are required) is available here: https://github.com/alexgo-io/alex-v1/blob/main/clarity/Clarinet.json
+---
+
+## Fork Notes
+
+This fork is maintained by [@serayd61](https://github.com/serayd61) for DeFi research and integration with [DeFi Sentinel](https://defi-sentinel.xyz)
+
+### Planned Improvements
+- Integration with Sentinel monitoring
+- Enhanced analytics dashboard
+- Cross-protocol swap integration
+- Real-time price feeds
+
+### Related Projects
+- [DeFi Sentinel](https://github.com/serayd61/stacks-defi-sentinel) - DeFi monitoring platform
+- [Stacks AMM DEX](https://github.com/serayd61/stacks-amm-dex) - AMM implementation
